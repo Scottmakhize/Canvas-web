@@ -1,0 +1,360 @@
+html { 
+    height: 100%;
+
+}
+
+body{ 
+    background-color: rgba(102, 3, 3, 0.363);
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    transition: 0.6s ease background-color;
+}
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 7vh;
+    
+}
+
+.logo{ 
+    color : white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 32px ;
+    
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    left: 20%;
+    
+}
+.nav-links li{
+    list-style: none;
+    
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.top-nav-links {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: 50px;
+    top: 8px;
+    left: -26px;
+}
+
+.top-nav-links li{
+    list-style: none;
+}
+.top-nav-links  {    
+    text-decoration: none;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 2vh;
+}
+.top-nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    margin: 40%;
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 22px;
+    left: 80%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+.social-menu ul li{ 
+    list-style: none;
+    margin: 0 15px;
+  
+}
+
+.social-menu ul li .fa { 
+    font-size: 18px;
+    line-height: 60px;
+    transition: 6s;
+    color: white;
+}
+
+.social-menu ul li a { 
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 60px;
+    text-align: right;
+}
+.box { 
+    position: absolute;
+    top: 238px;
+    left: 170px;
+    background-color:#ac4148;
+    width: 700px;
+    height: 5px;
+}
+.box1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    text-align: center;
+    
+}
+.box1 { 
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    background-color:transparent;
+    width: 700px;
+    height: 62px;
+}
+p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+
+}
+.box3 { 
+    background-color: #ac4148;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 600px;
+    
+}
+.box4 { 
+    background-color: #4e4b5c;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 266px;
+}
+.box5 { 
+    background-color: #4e4b5c;
+    width: 129px;
+    height: 60px;
+    position: absolute;
+    right: 368px;
+}
+
+.box6 { 
+    background-color: #4e4b5c;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 499px;
+    
+}
+
+.box2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    text-align: center;
+    transition: 0.8s;
+    
+}
+.box2 :hover {
+ color: #ac4148;
+}
+.box2 { 
+    position: absolute;
+    top: 242px;
+    left: 170px;
+    background-color:#f6f2ef;
+    width: 700px;
+    height: 400px;
+}
+
+.box7 { 
+    position: absolute;
+    top: 40px;
+    left: -22px;
+    background-color: transparent;
+    width: 300px;
+    height: 100px;
+    color: black;
+}
+.box8 { 
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    background-color: white;
+    width: 80px;
+    height: 35px;
+    color: black;
+}
+.box9 { 
+    position: absolute;
+    top: 40px;
+    right: 28px;
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.box10 { 
+    position: absolute;
+    top: 120px;
+    left: -8px;
+    background-color:transparent;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+.box11 { 
+    position: absolute;
+    top: 120px;
+    left: 290px;
+    background-color:transparent;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+.box12 { 
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    background-color:transparent;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+.box13 { 
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    background-color:transparent;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+.box14 { 
+    position: absolute;
+    top: 220px;
+    left: 490px;
+    background-color:transparent;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.search-box { 
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    background: #ac4148;
+    transform: translate(-50%, -50%);
+    width: 178px;
+    height: 35px;
+    font-size: 25px;
+}
+
+.search-text {
+ line-height: 40px;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ 
+}
+
+.Arrival-Date {
+    position: absolute;
+    top: 250px;
+    left: 28px;
+}
+
+.Return-Date {
+    position: absolute;
+    top: 250px;
+    left: 280px;
+}
+.ADULTS {
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    
+}
+
+.input-from {
+    position: absolute;
+    top: 150px;
+    left: 28px;
+    
+}
+
+.input-to {
+    position: absolute;
+    top: 1px;
+    left: 310px;
+    width: 151px;
+    display: inline-block;
+  
+}
+.box8 :hover {
+    color: white;
+    background: #ac4148;
+    margin: 0;
+    padding: 10px;
+    background-color: #ac4148;
+   }
+   .box9 :hover {
+    color: white;
+    background: #ac4148;
+    margin: 0;
+    padding: 10px;
+    background-color: #ac4148;
+   }
+
+
+
